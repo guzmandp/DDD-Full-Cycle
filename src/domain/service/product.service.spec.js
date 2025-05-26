@@ -3,7 +3,7 @@ import ProductService from "./product.service"
 
 describe("Product service unit tests", () => {
 
-    it("should change the rices of all products", () => {
+    it("should change the prices of all products", () => {
         const product1 = new Product("product1", "product1", 10);
         const product2 = new Product("product2", "product2", 20);
 
